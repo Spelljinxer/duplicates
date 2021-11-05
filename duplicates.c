@@ -215,16 +215,18 @@ int main(int argc, char*argv[])
             }
         }
         else if(opt == 'q') //Exits quietly, if theere are no duplicates
-        {             
-            if(minimum_size(ht, directory) == size_of_files(unqe, directory)) //storage is minimized = no duplicates
+        {    
+            dir_list(ht, directory);         
+            if(minimum_size(unqe, directory) == size_of_files(ht, directory)) //storage is minimized = no duplicates
             {
+                printf("no dupes found\n");
                 exit(EXIT_SUCCESS);
             }
             else
             {
+                printf("dupes found\n");
                 exit(EXIT_FAILURE);
-            }
-        }
+          
         else
         {
             usageCommandLine(); //Prints the correct way to use the commands if an invalid command is given
