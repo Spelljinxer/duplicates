@@ -226,6 +226,7 @@ int main(int argc, char*argv[])
             {
                 printf("dupes found\n");
                 exit(EXIT_FAILURE);
+            }
           
         else
         {
