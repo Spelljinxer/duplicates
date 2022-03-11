@@ -1,4 +1,2 @@
-# CITS2002-Project-2
+# Description is WIP
 
-- run with 'make'
-- Main located in duplicates.c
