@@ -1,5 +1,5 @@
 //  CITS2002 Project 2 2021
-//  Name(s):             Reiden Rufin (22986337), Nathan Eden (22960674)
+//  Name(s):             Hidden for Privacy.
 //  Student number(s):
 
 #include <stdio.h>
